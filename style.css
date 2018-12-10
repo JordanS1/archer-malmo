@@ -1,0 +1,40 @@
+body {
+	background-color: #4A6670;
+	text-align: center;
+}
+p {
+	color:#D6A2AD;
+	text-align: left;
+}
+title {color:#C3B59F;
+}
+li {
+	color:#C3B59F;
+}
+ul:hover { 
+    background-color: black;
+}
+img.blur {
+	filter: blur(10px);
+  	-webkit-filter: blur(10px);
+}
+img.blur:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.p{
+	outline: thick ridge #EEEEFF;
+	
+
+  	margin: 0 auto;
+  	width: auto;
+  	display: inline-block;
+   	padding: 10px;
+}
+h2 {
+	color:#C3B59F;
+}
+.border-button {
+  border: solid 5px black;
+  transition: border-width 0.6s linear;
+}
